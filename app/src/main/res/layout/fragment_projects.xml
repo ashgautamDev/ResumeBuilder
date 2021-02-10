@@ -6,31 +6,33 @@ android:layout_height="match_parent"
 android:orientation="vertical"
 tools:context=".screens.details.Projects">
 
-<TextView
-    style="@style/headingStyle"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/projects" />
+
 
 
     <LinearLayout
+        android:layout_marginTop="@dimen/dimen_64"
         android:id="@+id/Project1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
+
         <EditText
             android:id="@+id/etTitle1"
+            style="@style/edit_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_marginStart="@dimen/dimen_8"
-            style="@style/EditTextBox"
-            android:hint="@string/title" /> <EditText
+            android:hint="@string/title" />
+
+        <EditText
             android:id="@+id/etDescription1"
+            style="@style/edit_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:layout_marginStart="@dimen/dimen_8"
-            style="@style/EditTextBox"
             android:hint="@string/description" />
     </LinearLayout>
     <LinearLayout
@@ -45,14 +47,14 @@ tools:context=".screens.details.Projects">
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_8"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:hint="@string/title" />
         <EditText
             android:id="@+id/etDescription2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_8"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:hint="@string/description" />
     </LinearLayout>
 
@@ -63,16 +65,18 @@ tools:context=".screens.details.Projects">
     android:weightSum="2"
     android:layout_marginHorizontal="@dimen/dimen_16"
     android:orientation="horizontal">
+
     <com.google.android.material.button.MaterialButton
-        android:layout_marginHorizontal="@dimen/dimen_16"
         android:id="@+id/addIntrest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_more"
-        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="@dimen/dimen_16"
         android:layout_weight="1"
+        android:background="@drawable/btn_style"
+        android:text="@string/add_more"
         android:textColor="@color/secondaryTextColor"
-        android:background="@drawable/btn_style"/>
+        android:textStyle="bold" />
     <Button
         android:layout_marginHorizontal="@dimen/dimen_16"
         android:id="@+id/SaveAllIntrests"

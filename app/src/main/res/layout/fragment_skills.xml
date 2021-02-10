@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/skill1" />
 
     <EditText
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/skill2" />
     <EditText
         android:id="@+id/etSkill3"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/skill3" />
     <EditText
     android:id="@+id/etSkill4"
@@ -43,7 +43,7 @@
     android:layout_height="wrap_content"
     android:visibility="gone"
     android:layout_marginStart="@dimen/dimen_8"
-    style="@style/EditTextBox"
+    style="@style/edit_input"
     android:hint="@string/skill4" />
     <LinearLayout
         android:layout_width="match_parent"

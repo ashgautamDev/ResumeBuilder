@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Heading for Each fragment -->
+    <style name="headingStyle" >
+        <item name="android:layout_marginTop">@dimen/dimen_16</item>
+        <item name="android:textSize">@dimen/dimen_24</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="cornerRadius">@dimen/dimen_8</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+        <item name="android:background" >@color/primaryColor</item>
+    </style>
+
+    <style name="edit_input">
+        <item name="android:textSize">@dimen/dimen_24</item>
+        <item name="cornerRadius">@dimen/dimen_4</item>
+        <item name="android:ems">10</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+</resources>

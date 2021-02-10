@@ -3,14 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dimen_64"
     android:orientation="vertical"
     tools:context=".screens.details.Intrest">
 
-    <TextView
-        style="@style/headingStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/intrests" />
+
 
 
     <EditText
@@ -18,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/intrest1" />
 
     <EditText
@@ -27,7 +24,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/intrest2" />
     <EditText
         android:id="@+id/etIntrest3"
@@ -35,7 +32,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/intrest3" />
     <EditText
         android:id="@+id/etIntrest4"
@@ -43,7 +40,7 @@
         android:layout_height="wrap_content"
         android:visibility="gone"
         android:layout_marginStart="@dimen/dimen_8"
-        style="@style/EditTextBox"
+        style="@style/edit_input"
         android:hint="@string/intrest4" />
     <LinearLayout
         android:layout_width="match_parent"

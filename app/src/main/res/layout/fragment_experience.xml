@@ -11,17 +11,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingTop="10dp"
+        android:layout_marginTop="@dimen/dimen_64"
         tools:context=".screens.details.Experience">
 
-        <TextView
-            style="@style/headingStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/experienc" />
+
 
         <EditText
             android:id="@+id/etCompanyName"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:layout_width="match_parent"
             android:hint="@string/company_name"
             android:layout_height="wrap_content" />
@@ -30,7 +27,7 @@
             android:id="@+id/etTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:hint="@string/job_title"
          />
 
@@ -38,20 +35,20 @@
             android:id="@+id/etPassingYear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:hint="@string/start_date"
             android:inputType="date"
            />
 
         <EditText
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:hint="@string/end_date"
             android:id="@+id/etEndDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/etJobDescription"
-            style="@style/EditTextBox"
+            style="@style/edit_input"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen_150"
             android:gravity="start"

@@ -1,59 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/dimen_8"
+    android:orientation="vertical"
+    tools:context=".screens.profiles.Profile">
 
-    <data>
 
-    </data>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/btn_personal"
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/dimen_8"
-        android:layout_height="match_parent"
-        tools:context=".screens.profiles.Profile">
+        android:layout_height="wrap_content"
+        android:text="@string/personal_information" />
 
+    <Button
+        android:id="@+id/btn_eduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/education" />
 
-        <Button
-            android:id="@+id/btn_personal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/personal_information" />
+    <Button
+        android:id="@+id/btn_experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/experience" />
 
-        <Button
-            android:id="@+id/btn_eduction"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/education" />
+    <Button
+        android:id="@+id/btn_skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/skills" />
 
-        <Button
-            android:id="@+id/btn_experience"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/experienc" />
+    <Button
+        android:id="@+id/btn_objective"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/objective" />
 
-        <Button
-            android:id="@+id/btn_skills"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/skills" />
+    <Button
+        android:id="@+id/btn_interests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intrests" />
 
-        <Button
-            android:id="@+id/btn_objective"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/Objective" />
+    <Button
+        android:id="@+id/btn_projects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/projects" />
 
-        <Button
-            android:id="@+id/btn_intrests"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/intrests" />
-
-        <Button
-            android:id="@+id/btn_projects"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/projects" />
-    </LinearLayout>
-</layout>
+</LinearLayout>
