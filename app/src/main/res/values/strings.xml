@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Resume Builder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_fav_will_create_a_profile">This Fav will create a profile</string>
+
+    <!--    Strings for Education -->
+    <string name="school_name">Enter School/Universites</string>
+    <string name="passing_year">enter passing year</string>
+    <string name="grade">Enter Grade</string>
+
+<!--    Strings for Experience-->
+    <string name="company_name">Enter Company Name</string>
+    <string name="job_title">Job Title</string>
+    <string name="start_date"> Start Date</string>
+    <string name="end_date"> End Date</string>
+    <string name="detials">Description</string>
+
+<!--    String for Skills-->
+    <string name="skills">Skills</string>
+    <string name="skill1">Skill-1</string>
+    <string name="skill2">Skill-2</string>
+    <string name="skill3">Skill-3</string>
+    <string name="skill4">Skill-4</string>
+<!--    Strings for Intrests-->
+    <string name="intrests">Intrests</string>
+    <string name="intrest1">Intrest-1</string>
+    <string name="intrest2">Intrest-2</string>
+    <string name="intrest3">Intrest-3</string>
+    <string name="intrest4">Intrest-4</string>
+
+    <string name="add_more">Add More</string>
+    <string name="save">Save</string>
+
+
+    <string name="projects">Projects</string>
+    <string name="project2">Project-2</string>
+    <string name="title">Enter Title</string>
+    <string name="description">Enter Description</string>
+    <string name="Objective">Objectives</string>
+    <string name="Objective_box">Choose Objective from Below Then Edit it Or Type your Own</string>
+    <string name="chooseObjective">Choose Objectives</string>
+    <string name="experienc">Experience</string>
+    <string name="shortdescription">Short Description what You Do Here</string>
+    <string name="personal_information">personal information</string>
+    <string name="education">Education</string>
+
+
+</resources>

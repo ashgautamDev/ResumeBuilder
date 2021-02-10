@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gautam.resumebuilder.screens.home.HomeFragment"
+        android:label="Resume Builder"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_chooseProfile"
+            app:destination="@id/chooseProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseProfile"
+        android:name="com.gautam.resumebuilder.screens.profiles.ChooseProfile"
+        android:label="Choose Profile"
+        tools:layout="@layout/fragment_choose_profile">
+        <action
+            android:id="@+id/action_chooseProfile_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.gautam.resumebuilder.screens.details.Skills"
+        android:label="Your Profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profile_to_personalInfo"
+            app:destination="@id/personalInfo" />
+        <action
+            android:id="@+id/action_profile_to_eduction"
+            app:destination="@id/eduction" />
+        <action
+            android:id="@+id/action_profile_to_experience"
+            app:destination="@id/experience" />
+        <action
+            android:id="@+id/action_profile_to_skills"
+            app:destination="@id/skills" />
+        <action
+            android:id="@+id/action_profile_to_projects"
+            app:destination="@id/projects" />
+        <action
+            android:id="@+id/action_profile_to_intrest"
+            app:destination="@id/intrest" />
+        <action
+            android:id="@+id/action_profile_to_addMoreSection"
+            app:destination="@id/addMoreSection" />
+        <action
+            android:id="@+id/action_profile_to_objective"
+            app:destination="@id/objective" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/personalInfo"
+        android:name="com.gautam.resumebuilder.screens.details.Personal"
+        android:label="Personal Information"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/eduction"
+        android:name="com.gautam.resumebuilder.screens.details.Eduction"
+        android:label="Eduction"
+        tools:layout="@layout/fragment_eduction" />
+    <fragment
+        android:id="@+id/experience"
+        android:name="com.gautam.resumebuilder.screens.details.Eduction"
+        android:label="Experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/skills"
+        android:name="com.gautam.resumebuilder.screens.details.Skills"
+        android:label="Skills"
+        tools:layout="@layout/fragment_skills" />
+    <fragment
+        android:id="@+id/addMoreSection"
+        android:name="com.gautam.resumebuilder.screens.details.AddMoreSection"
+        android:label="Add More Section"
+        tools:layout="@layout/fragment_add_more_section" />
+    <fragment
+        android:id="@+id/intrest"
+        android:name="com.gautam.resumebuilder.screens.details.Intrest"
+        android:label="Intrest"
+        tools:layout="@layout/fragment_intrest" />
+    <fragment
+        android:id="@+id/projects"
+        android:name="com.gautam.resumebuilder.screens.details.Projects"
+        android:label="Projects"
+        tools:layout="@layout/fragment_projects" />
+    <fragment
+        android:id="@+id/objective"
+        android:name="com.gautam.resumebuilder.screens.details.Objective"
+        android:label="Objective"
+        tools:layout="@layout/fragment_objective" />
+</navigation>
